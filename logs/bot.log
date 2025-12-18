@@ -1,0 +1,35 @@
+# config/settings.py
+
+# ======================
+# MT5 CONFIGURATION
+# ======================
+MT5_LOGIN = 12345678          # TODO: your MT5 account number
+MT5_PASSWORD = "PASSWORD"     # TODO: your MT5 password
+MT5_SERVER = "Broker-Server"  # TODO: your broker server name
+MT5_PATH = None               # Optional path to terminal.exe
+
+SYMBOL = "EURUSD"
+
+# ======================
+# RISK MANAGEMENT
+# ======================
+RISK_PER_TRADE_NAIRA = 3000
+MIN_RR = 5.0
+
+# ======================
+# TIMEFRAMES
+# ======================
+TF_M5 = 5
+TF_M1 = 1
+
+# ======================
+# TELEGRAM CONFIG
+# ======================
+TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"   # TODO
+TELEGRAM_CHAT_ID = "YOUR_CHAT_ID"                # TODO
+
+# ======================
+# GENERAL
+# ======================
+MAGIC_NUMBER = 777001
+LOG_FILE = "logs/bot.log"
